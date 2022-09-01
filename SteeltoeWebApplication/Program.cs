@@ -2,10 +2,14 @@ using Steeltoe.Management.Endpoint;
 using Steeltoe.Management.Tracing;
 using Steeltoe.Connector.SqlServer.EFCore;
 using Microsoft.EntityFrameworkCore;
+using Steeltoe.Extensions.Configuration.ConfigServer;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+// Steeltoe config server client
+builder.AddConfigServer();
 
 builder.Services.AddDbContext<SteeltoeWebApplication.Models.TodoDbContext>(options => options.UseSqlServer(builder.Configuration));
 

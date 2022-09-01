@@ -48,6 +48,10 @@
               "target": "Package",
               "version": "[3.2.1, )"
             },
+            "Steeltoe.Extensions.Configuration.ConfigServerCore": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
             "Steeltoe.Extensions.Logging.DynamicLogger": {
               "target": "Package",
               "version": "[3.2.1, )"
