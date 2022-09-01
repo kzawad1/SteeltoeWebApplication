@@ -1,6 +1,17 @@
+using Steeltoe.Management.Endpoint;
+using Steeltoe.Management.Tracing;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+// Steeltoe distributed tracing
+builder.Services.AddDistributedTracingAspNetCore();
+
+// Steeltoe actuators
+builder.AddHealthActuator();
+builder.AddInfoActuator();
+builder.AddLoggersActuator();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
