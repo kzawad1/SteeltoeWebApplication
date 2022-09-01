@@ -1,9 +1,13 @@
 using Steeltoe.Management.Endpoint;
 using Steeltoe.Management.Tracing;
+using Steeltoe.Connector.SqlServer.EFCore;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+builder.Services.AddDbContext<SteeltoeWebApplication.Models.TodoDbContext>(options => options.UseSqlServer(builder.Configuration));
 
 // Steeltoe actuators
 builder.AddAllActuators();
@@ -17,6 +21,10 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
+
+await using var scope = app.Services.CreateAsyncScope();
+await using var dbContext = scope.ServiceProvider.GetRequiredService<SteeltoeWebApplication.Models.TodoDbContext>();
+await dbContext.Database.EnsureCreatedAsync();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

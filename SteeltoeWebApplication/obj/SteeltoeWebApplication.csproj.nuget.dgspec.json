@@ -40,6 +40,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Steeltoe.Connector.EFCore": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
             "Steeltoe.Extensions.Logging.DynamicLogger": {
               "target": "Package",
               "version": "[3.2.1, )"
