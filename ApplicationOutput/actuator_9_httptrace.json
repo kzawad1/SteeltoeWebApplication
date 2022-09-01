@@ -1,0 +1,495 @@
+{
+  "traces": [
+    {
+      "timestamp": 1662031491705,
+      "principal": {},
+      "session": {},
+      "request": {
+        "method": "GET",
+        "uri": "https://localhost:7119/_framework/aspnetcore-browser-refresh.js",
+        "headers": {
+          "accept": [ "*/*" ],
+          "host": [ "localhost:7119" ],
+          "user-agent": [ "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" ],
+          ":method": [ "GET" ],
+          "accept-encoding": [ "gzip, deflate, br" ],
+          "accept-language": [ "en-US,en;q=0.9" ],
+          "referer": [ "https://localhost:7119/swagger/index.html" ],
+          "sec-ch-ua": [ "\u0022Chromium\u0022;v=\u0022104\u0022, \u0022 Not A;Brand\u0022;v=\u002299\u0022, \u0022Google Chrome\u0022;v=\u0022104\u0022" ],
+          "sec-ch-ua-mobile": [ "?0" ],
+          "sec-ch-ua-platform": [ "\u0022Windows\u0022" ],
+          "sec-fetch-site": [ "same-origin" ],
+          "sec-fetch-mode": [ "no-cors" ],
+          "sec-fetch-dest": [ "script" ]
+        },
+        "remoteAddress": "::1"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "content-type": [ "application/javascript; charset=utf-8" ],
+          "date": [ "Thu, 01 Sep 2022 16:24:51 GMT" ],
+          "server": [ "Kestrel" ],
+          "cache-control": [ "no-store" ],
+          "content-length": [ "12014" ]
+        }
+      },
+      "timeTaken": 6
+    },
+    {
+      "timestamp": 1662031491705,
+      "principal": {},
+      "session": {},
+      "request": {
+        "method": "GET",
+        "uri": "https://localhost:7119/swagger/index.html",
+        "headers": {
+          "accept": [ "text/html,application/xhtml\u002Bxml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ],
+          "host": [ "localhost:7119" ],
+          "user-agent": [ "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" ],
+          ":method": [ "GET" ],
+          "accept-encoding": [ "gzip, deflate, br" ],
+          "accept-language": [ "en-US,en;q=0.9" ],
+          "upgrade-insecure-requests": [ "1" ],
+          "sec-fetch-site": [ "none" ],
+          "sec-fetch-mode": [ "navigate" ],
+          "sec-fetch-user": [ "?1" ],
+          "sec-fetch-dest": [ "document" ],
+          "sec-ch-ua": [ "\u0022Chromium\u0022;v=\u0022104\u0022, \u0022 Not A;Brand\u0022;v=\u002299\u0022, \u0022Google Chrome\u0022;v=\u0022104\u0022" ],
+          "sec-ch-ua-mobile": [ "?0" ],
+          "sec-ch-ua-platform": [ "\u0022Windows\u0022" ]
+        },
+        "remoteAddress": "::1"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "content-type": [ "text/html;charset=utf-8" ],
+          "date": [ "Thu, 01 Sep 2022 16:24:50 GMT" ],
+          "server": [ "Kestrel" ]
+        }
+      },
+      "timeTaken": 251
+    },
+    {
+      "timestamp": 1662031491763,
+      "principal": {},
+      "session": {},
+      "request": {
+        "method": "GET",
+        "uri": "https://localhost:7119/_vs/browserLink",
+        "headers": {
+          "accept": [ "*/*" ],
+          "host": [ "localhost:7119" ],
+          "user-agent": [ "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" ],
+          ":method": [ "GET" ],
+          "accept-encoding": [ "gzip, deflate, br" ],
+          "accept-language": [ "en-US,en;q=0.9" ],
+          "if-modified-since": [ "Thu, 01 Sep 2022 14:22:28 GMT" ],
+          "referer": [ "https://localhost:7119/swagger/index.html" ],
+          "sec-ch-ua": [ "\u0022Chromium\u0022;v=\u0022104\u0022, \u0022 Not A;Brand\u0022;v=\u002299\u0022, \u0022Google Chrome\u0022;v=\u0022104\u0022" ],
+          "sec-ch-ua-mobile": [ "?0" ],
+          "sec-ch-ua-platform": [ "\u0022Windows\u0022" ],
+          "sec-fetch-site": [ "same-origin" ],
+          "sec-fetch-mode": [ "no-cors" ],
+          "sec-fetch-dest": [ "script" ]
+        },
+        "remoteAddress": "::1"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "content-type": [ "text/javascript; charset=UTF-8" ],
+          "date": [ "Thu, 01 Sep 2022 16:24:51 GMT" ],
+          "server": [ "Microsoft-HTTPAPI/2.0" ],
+          "expires": [ "Thu, 01 Sep 2022 16:24:51 GMT" ],
+          "last-modified": [ "Thu, 01 Sep 2022 16:24:51 GMT" ]
+        }
+      },
+      "timeTaken": 52
+    },
+    {
+      "timestamp": 1662031491890,
+      "principal": {},
+      "session": {},
+      "request": {
+        "method": "GET",
+        "uri": "https://localhost:7119/swagger/v1/swagger.json",
+        "headers": {
+          "accept": [ "application/json,*/*" ],
+          "host": [ "localhost:7119" ],
+          "user-agent": [ "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" ],
+          ":method": [ "GET" ],
+          "accept-encoding": [ "gzip, deflate, br" ],
+          "accept-language": [ "en-US,en;q=0.9" ],
+          "referer": [ "https://localhost:7119/swagger/index.html" ],
+          "sec-ch-ua": [ "\u0022Chromium\u0022;v=\u0022104\u0022, \u0022 Not A;Brand\u0022;v=\u002299\u0022, \u0022Google Chrome\u0022;v=\u0022104\u0022" ],
+          "sec-ch-ua-mobile": [ "?0" ],
+          "sec-ch-ua-platform": [ "\u0022Windows\u0022" ],
+          "sec-fetch-site": [ "same-origin" ],
+          "sec-fetch-mode": [ "cors" ],
+          "sec-fetch-dest": [ "empty" ]
+        },
+        "remoteAddress": "::1"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "content-type": [ "application/json;charset=utf-8" ],
+          "date": [ "Thu, 01 Sep 2022 16:24:51 GMT" ],
+          "server": [ "Kestrel" ]
+        }
+      },
+      "timeTaken": 80
+    },
+    {
+      "timestamp": 1662031645675,
+      "principal": {},
+      "session": {},
+      "request": {
+        "method": "GET",
+        "uri": "https://localhost:7119/actuator",
+        "headers": {
+          "accept": [ "text/html,application/xhtml\u002Bxml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ],
+          "host": [ "localhost:7119" ],
+          "user-agent": [ "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" ],
+          ":method": [ "GET" ],
+          "accept-encoding": [ "gzip, deflate, br" ],
+          "accept-language": [ "en-US,en;q=0.9" ],
+          "upgrade-insecure-requests": [ "1" ],
+          "sec-ch-ua": [ "\u0022Chromium\u0022;v=\u0022104\u0022, \u0022 Not A;Brand\u0022;v=\u002299\u0022, \u0022Google Chrome\u0022;v=\u0022104\u0022" ],
+          "sec-ch-ua-mobile": [ "?0" ],
+          "sec-ch-ua-platform": [ "\u0022Windows\u0022" ],
+          "sec-fetch-site": [ "none" ],
+          "sec-fetch-mode": [ "navigate" ],
+          "sec-fetch-user": [ "?1" ],
+          "sec-fetch-dest": [ "document" ]
+        },
+        "remoteAddress": "::1"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "content-type": [ "application/vnd.spring-boot.actuator.v2\u002Bjson;charset=UTF-8" ],
+          "date": [ "Thu, 01 Sep 2022 16:27:25 GMT" ],
+          "server": [ "Kestrel" ]
+        }
+      },
+      "timeTaken": 25
+    },
+    {
+      "timestamp": 1662031645699,
+      "principal": {},
+      "session": {},
+      "request": {
+        "method": "GET",
+        "uri": "https://localhost:7119/favicon.ico",
+        "headers": {
+          "accept": [ "image/avif,image/webp,image/apng,image/svg\u002Bxml,image/*,*/*;q=0.8" ],
+          "host": [ "localhost:7119" ],
+          "user-agent": [ "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" ],
+          ":method": [ "GET" ],
+          "accept-encoding": [ "gzip, deflate, br" ],
+          "accept-language": [ "en-US,en;q=0.9" ],
+          "referer": [ "https://localhost:7119/actuator" ],
+          "sec-ch-ua": [ "\u0022Chromium\u0022;v=\u0022104\u0022, \u0022 Not A;Brand\u0022;v=\u002299\u0022, \u0022Google Chrome\u0022;v=\u0022104\u0022" ],
+          "sec-ch-ua-mobile": [ "?0" ],
+          "sec-ch-ua-platform": [ "\u0022Windows\u0022" ],
+          "sec-fetch-site": [ "same-origin" ],
+          "sec-fetch-mode": [ "no-cors" ],
+          "sec-fetch-dest": [ "image" ]
+        },
+        "remoteAddress": "::1"
+      },
+      "response": {
+        "status": 404,
+        "headers": {
+          "date": [ "Thu, 01 Sep 2022 16:27:25 GMT" ],
+          "server": [ "Kestrel" ],
+          "content-length": [ "0" ]
+        }
+      },
+      "timeTaken": 1
+    },
+    {
+      "timestamp": 1662031653230,
+      "principal": {},
+      "session": {},
+      "request": {
+        "method": "GET",
+        "uri": "https://localhost:7119/actuator/env",
+        "headers": {
+          "accept": [ "text/html,application/xhtml\u002Bxml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ],
+          "host": [ "localhost:7119" ],
+          "user-agent": [ "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" ],
+          ":method": [ "GET" ],
+          "accept-encoding": [ "gzip, deflate, br" ],
+          "accept-language": [ "en-US,en;q=0.9" ],
+          "upgrade-insecure-requests": [ "1" ],
+          "sec-ch-ua": [ "\u0022Chromium\u0022;v=\u0022104\u0022, \u0022 Not A;Brand\u0022;v=\u002299\u0022, \u0022Google Chrome\u0022;v=\u0022104\u0022" ],
+          "sec-ch-ua-mobile": [ "?0" ],
+          "sec-ch-ua-platform": [ "\u0022Windows\u0022" ],
+          "sec-fetch-site": [ "none" ],
+          "sec-fetch-mode": [ "navigate" ],
+          "sec-fetch-user": [ "?1" ],
+          "sec-fetch-dest": [ "document" ]
+        },
+        "remoteAddress": "::1"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "content-type": [ "application/vnd.spring-boot.actuator.v2\u002Bjson;charset=UTF-8" ],
+          "date": [ "Thu, 01 Sep 2022 16:27:33 GMT" ],
+          "server": [ "Kestrel" ]
+        }
+      },
+      "timeTaken": 16
+    },
+    {
+      "timestamp": 1662031664020,
+      "principal": {},
+      "session": {},
+      "request": {
+        "method": "GET",
+        "uri": "https://localhost:7119/actuator/health",
+        "headers": {
+          "accept": [ "text/html,application/xhtml\u002Bxml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ],
+          "host": [ "localhost:7119" ],
+          "user-agent": [ "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" ],
+          ":method": [ "GET" ],
+          "accept-encoding": [ "gzip, deflate, br" ],
+          "accept-language": [ "en-US,en;q=0.9" ],
+          "upgrade-insecure-requests": [ "1" ],
+          "sec-ch-ua": [ "\u0022Chromium\u0022;v=\u0022104\u0022, \u0022 Not A;Brand\u0022;v=\u002299\u0022, \u0022Google Chrome\u0022;v=\u0022104\u0022" ],
+          "sec-ch-ua-mobile": [ "?0" ],
+          "sec-ch-ua-platform": [ "\u0022Windows\u0022" ],
+          "sec-fetch-site": [ "none" ],
+          "sec-fetch-mode": [ "navigate" ],
+          "sec-fetch-user": [ "?1" ],
+          "sec-fetch-dest": [ "document" ]
+        },
+        "remoteAddress": "::1"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "content-type": [ "application/vnd.spring-boot.actuator.v2\u002Bjson;charset=UTF-8" ],
+          "date": [ "Thu, 01 Sep 2022 16:27:43 GMT" ],
+          "server": [ "Kestrel" ]
+        }
+      },
+      "timeTaken": 161
+    },
+    {
+      "timestamp": 1662031670190,
+      "principal": {},
+      "session": {},
+      "request": {
+        "method": "GET",
+        "uri": "https://localhost:7119/actuator/info",
+        "headers": {
+          "accept": [ "text/html,application/xhtml\u002Bxml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ],
+          "host": [ "localhost:7119" ],
+          "user-agent": [ "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" ],
+          ":method": [ "GET" ],
+          "accept-encoding": [ "gzip, deflate, br" ],
+          "accept-language": [ "en-US,en;q=0.9" ],
+          "upgrade-insecure-requests": [ "1" ],
+          "sec-ch-ua": [ "\u0022Chromium\u0022;v=\u0022104\u0022, \u0022 Not A;Brand\u0022;v=\u002299\u0022, \u0022Google Chrome\u0022;v=\u0022104\u0022" ],
+          "sec-ch-ua-mobile": [ "?0" ],
+          "sec-ch-ua-platform": [ "\u0022Windows\u0022" ],
+          "sec-fetch-site": [ "none" ],
+          "sec-fetch-mode": [ "navigate" ],
+          "sec-fetch-user": [ "?1" ],
+          "sec-fetch-dest": [ "document" ]
+        },
+        "remoteAddress": "::1"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "content-type": [ "application/vnd.spring-boot.actuator.v2\u002Bjson;charset=UTF-8" ],
+          "date": [ "Thu, 01 Sep 2022 16:27:49 GMT" ],
+          "server": [ "Kestrel" ]
+        }
+      },
+      "timeTaken": 5
+    },
+    {
+      "timestamp": 1662031678017,
+      "principal": {},
+      "session": {},
+      "request": {
+        "method": "GET",
+        "uri": "https://localhost:7119/actuator/loggers",
+        "headers": {
+          "accept": [ "text/html,application/xhtml\u002Bxml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ],
+          "host": [ "localhost:7119" ],
+          "user-agent": [ "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" ],
+          ":method": [ "GET" ],
+          "accept-encoding": [ "gzip, deflate, br" ],
+          "accept-language": [ "en-US,en;q=0.9" ],
+          "upgrade-insecure-requests": [ "1" ],
+          "sec-ch-ua": [ "\u0022Chromium\u0022;v=\u0022104\u0022, \u0022 Not A;Brand\u0022;v=\u002299\u0022, \u0022Google Chrome\u0022;v=\u0022104\u0022" ],
+          "sec-ch-ua-mobile": [ "?0" ],
+          "sec-ch-ua-platform": [ "\u0022Windows\u0022" ],
+          "sec-fetch-site": [ "none" ],
+          "sec-fetch-mode": [ "navigate" ],
+          "sec-fetch-user": [ "?1" ],
+          "sec-fetch-dest": [ "document" ]
+        },
+        "remoteAddress": "::1"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "content-type": [ "application/vnd.spring-boot.actuator.v2\u002Bjson;charset=UTF-8" ],
+          "date": [ "Thu, 01 Sep 2022 16:27:57 GMT" ],
+          "server": [ "Kestrel" ]
+        }
+      },
+      "timeTaken": 12
+    },
+    {
+      "timestamp": 1662031685188,
+      "principal": {},
+      "session": {},
+      "request": {
+        "method": "GET",
+        "uri": "https://localhost:7119/actuator/mappings",
+        "headers": {
+          "accept": [ "text/html,application/xhtml\u002Bxml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ],
+          "host": [ "localhost:7119" ],
+          "user-agent": [ "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" ],
+          ":method": [ "GET" ],
+          "accept-encoding": [ "gzip, deflate, br" ],
+          "accept-language": [ "en-US,en;q=0.9" ],
+          "upgrade-insecure-requests": [ "1" ],
+          "sec-ch-ua": [ "\u0022Chromium\u0022;v=\u0022104\u0022, \u0022 Not A;Brand\u0022;v=\u002299\u0022, \u0022Google Chrome\u0022;v=\u0022104\u0022" ],
+          "sec-ch-ua-mobile": [ "?0" ],
+          "sec-ch-ua-platform": [ "\u0022Windows\u0022" ],
+          "sec-fetch-site": [ "none" ],
+          "sec-fetch-mode": [ "navigate" ],
+          "sec-fetch-user": [ "?1" ],
+          "sec-fetch-dest": [ "document" ]
+        },
+        "remoteAddress": "::1"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "content-type": [ "application/vnd.spring-boot.actuator.v2\u002Bjson;charset=UTF-8" ],
+          "date": [ "Thu, 01 Sep 2022 16:28:04 GMT" ],
+          "server": [ "Kestrel" ]
+        }
+      },
+      "timeTaken": 11
+    },
+    {
+      "timestamp": 1662031691672,
+      "principal": {},
+      "session": {},
+      "request": {
+        "method": "GET",
+        "uri": "https://localhost:7119/actuator/metrics",
+        "headers": {
+          "accept": [ "text/html,application/xhtml\u002Bxml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ],
+          "host": [ "localhost:7119" ],
+          "user-agent": [ "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" ],
+          ":method": [ "GET" ],
+          "accept-encoding": [ "gzip, deflate, br" ],
+          "accept-language": [ "en-US,en;q=0.9" ],
+          "upgrade-insecure-requests": [ "1" ],
+          "sec-ch-ua": [ "\u0022Chromium\u0022;v=\u0022104\u0022, \u0022 Not A;Brand\u0022;v=\u002299\u0022, \u0022Google Chrome\u0022;v=\u0022104\u0022" ],
+          "sec-ch-ua-mobile": [ "?0" ],
+          "sec-ch-ua-platform": [ "\u0022Windows\u0022" ],
+          "sec-fetch-site": [ "none" ],
+          "sec-fetch-mode": [ "navigate" ],
+          "sec-fetch-user": [ "?1" ],
+          "sec-fetch-dest": [ "document" ]
+        },
+        "remoteAddress": "::1"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "content-type": [ "application/vnd.spring-boot.actuator.v2\u002Bjson;charset=UTF-8" ],
+          "date": [ "Thu, 01 Sep 2022 16:28:11 GMT" ],
+          "server": [ "Kestrel" ]
+        }
+      },
+      "timeTaken": 31
+    },
+    {
+      "timestamp": 1662031697102,
+      "principal": {},
+      "session": {},
+      "request": {
+        "method": "GET",
+        "uri": "https://localhost:7119/actuator/prometheus",
+        "headers": {
+          "accept": [ "text/html,application/xhtml\u002Bxml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ],
+          "host": [ "localhost:7119" ],
+          "user-agent": [ "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" ],
+          ":method": [ "GET" ],
+          "accept-encoding": [ "gzip, deflate, br" ],
+          "accept-language": [ "en-US,en;q=0.9" ],
+          "upgrade-insecure-requests": [ "1" ],
+          "sec-ch-ua": [ "\u0022Chromium\u0022;v=\u0022104\u0022, \u0022 Not A;Brand\u0022;v=\u002299\u0022, \u0022Google Chrome\u0022;v=\u0022104\u0022" ],
+          "sec-ch-ua-mobile": [ "?0" ],
+          "sec-ch-ua-platform": [ "\u0022Windows\u0022" ],
+          "sec-fetch-site": [ "none" ],
+          "sec-fetch-mode": [ "navigate" ],
+          "sec-fetch-user": [ "?1" ],
+          "sec-fetch-dest": [ "document" ]
+        },
+        "remoteAddress": "::1"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "content-type": [ "text/plain; version=0.0.4;" ],
+          "date": [ "Thu, 01 Sep 2022 16:28:16 GMT" ],
+          "server": [ "Kestrel" ]
+        }
+      },
+      "timeTaken": 20
+    },
+    {
+      "timestamp": 1662031706374,
+      "principal": {},
+      "session": {},
+      "request": {
+        "method": "GET",
+        "uri": "https://localhost:7119/actuator/refresh",
+        "headers": {
+          "accept": [ "text/html,application/xhtml\u002Bxml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" ],
+          "host": [ "localhost:7119" ],
+          "user-agent": [ "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" ],
+          ":method": [ "GET" ],
+          "accept-encoding": [ "gzip, deflate, br" ],
+          "accept-language": [ "en-US,en;q=0.9" ],
+          "upgrade-insecure-requests": [ "1" ],
+          "sec-ch-ua": [ "\u0022Chromium\u0022;v=\u0022104\u0022, \u0022 Not A;Brand\u0022;v=\u002299\u0022, \u0022Google Chrome\u0022;v=\u0022104\u0022" ],
+          "sec-ch-ua-mobile": [ "?0" ],
+          "sec-ch-ua-platform": [ "\u0022Windows\u0022" ],
+          "sec-fetch-site": [ "none" ],
+          "sec-fetch-mode": [ "navigate" ],
+          "sec-fetch-user": [ "?1" ],
+          "sec-fetch-dest": [ "document" ]
+        },
+        "remoteAddress": "::1"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "content-type": [ "application/vnd.spring-boot.actuator.v2\u002Bjson;charset=UTF-8" ],
+          "date": [ "Thu, 01 Sep 2022 16:28:25 GMT" ],
+          "server": [ "Kestrel" ]
+        }
+      },
+      "timeTaken": 89
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "contexts": {
+    "application": {
+      "mappings": {
+        "dispatcherServlets": {
+          "SteeltoeWebApplication.Controllers.TodoItemsController": [
+            {
+              "handler": "System.Threading.Tasks.Task\u00601[Microsoft.AspNetCore.Mvc.ActionResult\u00601[System.Collections.Generic.IEnumerable\u00601[SteeltoeWebApplication.Models.TodoItem]]] GetTodoItems()",
+              "predicate": "{[api/TodoItems],methods=[GET],produces=[text/plain || application/json || text/json]}"
+            },
+            {
+              "handler": "System.Threading.Tasks.Task\u00601[Microsoft.AspNetCore.Mvc.ActionResult\u00601[SteeltoeWebApplication.Models.TodoItem]] GetTodoItem(Int64)",
+              "predicate": "{[api/TodoItems/{id}],methods=[GET],produces=[text/plain || application/json || text/json]}"
+            }
+          ],
+          "SteeltoeWebApplication.Controllers.ValuesController": [
+            {
+              "handler": "Microsoft.AspNetCore.Mvc.ActionResult\u00601[System.Collections.Generic.IEnumerable\u00601[System.String]] Get()",
+              "predicate": "{[Values],methods=[GET],produces=[text/plain || application/json || text/json]}"
+            }
+          ],
+          "SteeltoeWebApplication.Controllers.WeatherForecastController": [
+            {
+              "handler": "System.Collections.Generic.IEnumerable\u00601[SteeltoeWebApplication.WeatherForecast] Get()",
+              "predicate": "{[WeatherForecast],methods=[GET],produces=[text/plain || application/json || text/json]}"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

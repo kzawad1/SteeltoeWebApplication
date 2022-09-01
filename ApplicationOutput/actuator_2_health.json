@@ -1,0 +1,14 @@
+{
+  "status": "UP",
+  "details": {
+    "readiness": { "ReadinessState": "ACCEPTING_TRAFFIC" },
+    "config-server": { "error": "No property sources found" },
+    "diskSpace": {
+      "total": 1022793609216,
+      "free": 881772638208,
+      "threshold": 10485760,
+      "status": "UP"
+    },
+    "liveness": { "LivenessState": "CORRECT" }
+  }
+}

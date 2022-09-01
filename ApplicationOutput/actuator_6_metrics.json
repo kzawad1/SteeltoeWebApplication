@@ -1,0 +1,11 @@
+{
+  "names": [
+    "clr.memory.used",
+    "clr.gc.collections",
+    "clr.threadpool.active",
+    "clr.threadpool.avail",
+    "clr.process.uptime",
+    "http.server.requests.seconds",
+    "http.server.requests.count"
+  ]
+}

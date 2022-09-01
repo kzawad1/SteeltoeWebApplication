@@ -1,0 +1,13 @@
+{
+  "applicationVersionInfo": {
+    "ProductName": "SteeltoeWebApplication",
+    "FileVersion": "1.0.0.0",
+    "ProductVersion": "1.0.0"
+  },
+  "steeltoeVersionInfo": {
+    "ProductName": "Steeltoe.Management.EndpointBase",
+    "FileVersion": "3.2.1.0",
+    "ProductVersion": "3.2.1\u002Ba65adbc48b43e526f6d132eb14503e857312f958"
+  },
+  "build": { "version": "1.0.0.0" }
+}

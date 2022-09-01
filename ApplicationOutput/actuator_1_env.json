@@ -1,0 +1,171 @@
+{
+  "activeProfiles": [ "Development" ],
+  "propertySources": [
+    {
+      "name": "MemoryConfigurationProvider",
+      "properties": {}
+    },
+    {
+      "name": "ChainedConfigurationProvider",
+      "properties": {
+        "applicationName": { "value": "SteeltoeWebApplication" },
+        "AUTO_RELOAD_VDIR": { "value": "/" },
+        "AUTO_RELOAD_WS_ENDPOINT": { "value": "wss://localhost:44328/SteeltoeWebApplication/,ws://localhost:58284/SteeltoeWebApplication/" },
+        "AUTO_RELOAD_WS_KEY": { "value": "******" },
+        "contentRoot": { "value": "C:\\Users\\krzysztof\\source\\repos\\SteeltoeWebApplication\\SteeltoeWebApplication\\" },
+        "ENVIRONMENT": { "value": "Development" },
+        "HOSTINGSTARTUPASSEMBLIES": { "value": "Microsoft.AspNetCore.Watch.BrowserRefresh;Microsoft.WebTools.BrowserLink.Net" },
+        "HOTRELOAD_NAMEDPIPE_NAME": { "value": "b39f9302-9bc7-4885-ad5c-143217553ac4" },
+        "HTTPS_PORT": { "value": "7119" },
+        "MODIFIABLE_ASSEMBLIES": { "value": "debug" },
+        "STARTUP_HOOKS": { "value": "C:\\Program Files\\dotnet\\SDK\\6.0.400\\DotnetTools\\dotnet-watch\\6.0.400-rtm.22368.21\\tools\\net6.0\\any\\middleware\\Microsoft.AspNetCore.Watch.BrowserRefresh.dll;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\Extensions\\Microsoft\\Web Tools\\Browser Link\\Microsoft.WebTools.BrowserLink.Net.dll" },
+        "URLS": { "value": "https://localhost:7119;http://localhost:5119" }
+      }
+    },
+    {
+      "name": "ChainedConfigurationProvider",
+      "properties": {
+        "applicationName": { "value": "SteeltoeWebApplication" },
+        "AUTO_RELOAD_VDIR": { "value": "/" },
+        "AUTO_RELOAD_WS_ENDPOINT": { "value": "wss://localhost:44328/SteeltoeWebApplication/,ws://localhost:58284/SteeltoeWebApplication/" },
+        "AUTO_RELOAD_WS_KEY": { "value": "******" },
+        "contentRoot": { "value": "C:\\Users\\krzysztof\\source\\repos\\SteeltoeWebApplication\\SteeltoeWebApplication\\" },
+        "ENVIRONMENT": { "value": "Development" },
+        "HOSTINGSTARTUPASSEMBLIES": { "value": "Microsoft.AspNetCore.Watch.BrowserRefresh;Microsoft.WebTools.BrowserLink.Net" },
+        "HOTRELOAD_NAMEDPIPE_NAME": { "value": "b39f9302-9bc7-4885-ad5c-143217553ac4" },
+        "HTTPS_PORT": { "value": "7119" },
+        "MODIFIABLE_ASSEMBLIES": { "value": "debug" },
+        "STARTUP_HOOKS": { "value": "C:\\Program Files\\dotnet\\SDK\\6.0.400\\DotnetTools\\dotnet-watch\\6.0.400-rtm.22368.21\\tools\\net6.0\\any\\middleware\\Microsoft.AspNetCore.Watch.BrowserRefresh.dll;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\Extensions\\Microsoft\\Web Tools\\Browser Link\\Microsoft.WebTools.BrowserLink.Net.dll" },
+        "URLS": { "value": "https://localhost:7119;http://localhost:5119" }
+      }
+    },
+    {
+      "name": "JsonConfigurationProvider: [appsettings.json]",
+      "properties": {
+        "AllowedHosts": { "value": "*" },
+        "Logging:LogLevel:Default": { "value": "Information" },
+        "Logging:LogLevel:Microsoft.AspNetCore": { "value": "Warning" },
+        "management:endpoints:actuator:exposure:include:0": { "value": "*" },
+        "spring:application:name": { "value": "my-values" },
+        "sqlserver:credentials:ConnectionString": { "value": "******" }
+      }
+    },
+    {
+      "name": "JsonConfigurationProvider: [appsettings.Development.json]",
+      "properties": {
+        "Logging:LogLevel:Default": { "value": "Information" },
+        "Logging:LogLevel:Microsoft.AspNetCore": { "value": "Warning" }
+      }
+    },
+    {
+      "name": "EnvironmentVariablesConfigurationProvider",
+      "properties": {
+        ":ASPNETCORE_BROWSER_TOOLS": { "value": "true" },
+        "ALLUSERSPROFILE": { "value": "C:\\ProgramData" },
+        "APPDATA": { "value": "C:\\Users\\krzysztof\\AppData\\Roaming" },
+        "ASPNETCORE_AUTO_RELOAD_VDIR": { "value": "/" },
+        "ASPNETCORE_AUTO_RELOAD_WS_ENDPOINT": { "value": "wss://localhost:44328/SteeltoeWebApplication/,ws://localhost:58284/SteeltoeWebApplication/" },
+        "ASPNETCORE_AUTO_RELOAD_WS_KEY": { "value": "******" },
+        "ASPNETCORE_ENVIRONMENT": { "value": "Development" },
+        "ASPNETCORE_HOSTINGSTARTUPASSEMBLIES": { "value": "Microsoft.AspNetCore.Watch.BrowserRefresh;Microsoft.WebTools.BrowserLink.Net" },
+        "ASPNETCORE_HTTPS_PORT": { "value": "7119" },
+        "ASPNETCORE_URLS": { "value": "https://localhost:7119;http://localhost:5119" },
+        "CommonProgramFiles": { "value": "C:\\Program Files\\Common Files" },
+        "CommonProgramFiles(x86)": { "value": "C:\\Program Files (x86)\\Common Files" },
+        "CommonProgramW6432": { "value": "C:\\Program Files\\Common Files" },
+        "COMPLUS_ForceENC": { "value": "1" },
+        "COMPUTERNAME": { "value": "DESKTOP-N1TUMCA" },
+        "ComSpec": { "value": "C:\\WINDOWS\\system32\\cmd.exe" },
+        "configsetroot": { "value": "C:\\WINDOWS\\ConfigSetRoot" },
+        "DOTNET_HOTRELOAD_NAMEDPIPE_NAME": { "value": "b39f9302-9bc7-4885-ad5c-143217553ac4" },
+        "DOTNET_MODIFIABLE_ASSEMBLIES": { "value": "debug" },
+        "DOTNET_STARTUP_HOOKS": { "value": "C:\\Program Files\\dotnet\\SDK\\6.0.400\\DotnetTools\\dotnet-watch\\6.0.400-rtm.22368.21\\tools\\net6.0\\any\\middleware\\Microsoft.AspNetCore.Watch.BrowserRefresh.dll;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\Extensions\\Microsoft\\Web Tools\\Browser Link\\Microsoft.WebTools.BrowserLink.Net.dll" },
+        "DriverData": { "value": "C:\\Windows\\System32\\Drivers\\DriverData" },
+        "ENABLE_XAML_DIAGNOSTICS_SOURCE_INFO": { "value": "1" },
+        "FPS_BROWSER_APP_PROFILE_STRING": { "value": "Internet Explorer" },
+        "FPS_BROWSER_USER_PROFILE_STRING": { "value": "Default" },
+        "HOMEDRIVE": { "value": "C:" },
+        "HOMEPATH": { "value": "\\Users\\krzysztof" },
+        "IIS_BIN": { "value": "C:\\Program Files\\IIS Express" },
+        "IIS_DRIVE": { "value": "C:" },
+        "IIS_SITES_HOME": { "value": "C:\\Users\\krzysztof\\Documents\\My Web Sites" },
+        "IIS_USER_HOME": { "value": "C:\\Users\\krzysztof\\Documents\\IISExpress" },
+        "LOCALAPPDATA": { "value": "C:\\Users\\krzysztof\\AppData\\Local" },
+        "LOGONSERVER": { "value": "\\\\DESKTOP-N1TUMCA" },
+        "MSBuildLoadMicrosoftTargetsReadOnly": { "value": "true" },
+        "NUMBER_OF_PROCESSORS": { "value": "16" },
+        "OneDrive": { "value": "C:\\Users\\krzysztof\\OneDrive" },
+        "OneDriveConsumer": { "value": "C:\\Users\\krzysztof\\OneDrive" },
+        "OS": { "value": "Windows_NT" },
+        "Path": { "value": "C:\\Program Files (x86)\\VMware\\VMware Player\\bin\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\dotnet\\;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\DTS\\Binn\\;C:\\Program Files\\Azure Data Studio\\bin;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Program Files\\Git\\cmd;C:\\Users\\krzysztof\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\krzysztof\\.dotnet\\tools;C:\\Program Files\\Azure Data Studio\\bin" },
+        "PATHEXT": { "value": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC" },
+        "PkgDefApplicationConfigFile": { "value": "C:\\Users\\krzysztof\\AppData\\Local\\Microsoft\\VisualStudio\\17.0_36ce7116\\devenv.exe.config" },
+        "PROCESSOR_ARCHITECTURE": { "value": "AMD64" },
+        "PROCESSOR_IDENTIFIER": { "value": "Intel64 Family 6 Model 141 Stepping 1, GenuineIntel" },
+        "PROCESSOR_LEVEL": { "value": "6" },
+        "PROCESSOR_REVISION": { "value": "8d01" },
+        "ProgramData": { "value": "C:\\ProgramData" },
+        "ProgramFiles": { "value": "C:\\Program Files" },
+        "ProgramFiles(x86)": { "value": "C:\\Program Files (x86)" },
+        "ProgramW6432": { "value": "C:\\Program Files" },
+        "PSModulePath": { "value": "C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules" },
+        "PUBLIC": { "value": "C:\\Users\\Public" },
+        "ServiceHubLogSessionKey": { "value": "******" },
+        "SESSIONNAME": { "value": "Console" },
+        "SystemDrive": { "value": "C:" },
+        "SystemRoot": { "value": "C:\\WINDOWS" },
+        "TEMP": { "value": "C:\\Users\\KRZYSZ~1\\AppData\\Local\\Temp" },
+        "ThreadedWaitDialogDpiContext": { "value": "-4" },
+        "TMP": { "value": "C:\\Users\\KRZYSZ~1\\AppData\\Local\\Temp" },
+        "USERDOMAIN": { "value": "DESKTOP-N1TUMCA" },
+        "USERDOMAIN_ROAMINGPROFILE": { "value": "DESKTOP-N1TUMCA" },
+        "USERNAME": { "value": "krzysztof" },
+        "USERPROFILE": { "value": "C:\\Users\\krzysztof" },
+        "VisualStudioDir": { "value": "C:\\Users\\krzysztof\\Documents\\Visual Studio 2022" },
+        "VisualStudioEdition": { "value": "Microsoft Visual Studio Community 2022" },
+        "VisualStudioVersion": { "value": "17.0" },
+        "VSAPPIDDIR": { "value": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\" },
+        "VSAPPIDNAME": { "value": "devenv.exe" },
+        "VSLANG": { "value": "1033" },
+        "VSSKUEDITION": { "value": "Community" },
+        "windir": { "value": "C:\\WINDOWS" },
+        "ZES_ENABLE_SYSMAN": { "value": "1" }
+      }
+    },
+    {
+      "name": "CloudFoundryConfigurationProvider",
+      "properties": {}
+    },
+    {
+      "name": "ConfigServerConfigurationProvider",
+      "properties": {
+        "spring:cloud:config:access_token_uri": {},
+        "spring:cloud:config:client_id": {},
+        "spring:cloud:config:client_secret": {},
+        "spring:cloud:config:disableTokenRenewal": { "value": "False" },
+        "spring:cloud:config:discovery:enabled": { "value": "False" },
+        "spring:cloud:config:discovery:serviceId": { "value": "configserver" },
+        "spring:cloud:config:enabled": { "value": "True" },
+        "spring:cloud:config:env": { "value": "Development" },
+        "spring:cloud:config:failFast": { "value": "False" },
+        "spring:cloud:config:health:enabled": { "value": "True" },
+        "spring:cloud:config:health:timeToLive": { "value": "300000" },
+        "spring:cloud:config:label": {},
+        "spring:cloud:config:name": { "value": "my-values" },
+        "spring:cloud:config:password": {},
+        "spring:cloud:config:retry:enabled": { "value": "False" },
+        "spring:cloud:config:retry:initialInterval": { "value": "1000" },
+        "spring:cloud:config:retry:maxAttempts": { "value": "6" },
+        "spring:cloud:config:retry:maxInterval": { "value": "2000" },
+        "spring:cloud:config:retry:multiplier": { "value": "1.1" },
+        "spring:cloud:config:timeout": { "value": "6000" },
+        "spring:cloud:config:token": {},
+        "spring:cloud:config:tokenRenewRate": { "value": "60000" },
+        "spring:cloud:config:tokenTtl": { "value": "300000" },
+        "spring:cloud:config:uri": { "value": "http://localhost:8888" },
+        "spring:cloud:config:username": {},
+        "spring:cloud:config:validate_certificates": { "value": "True" }
+      }
+    }
+  ]
+}

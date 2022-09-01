@@ -1,0 +1,57 @@
+{
+  "type": "steeltoe",
+  "_links": {
+    "self": {
+      "href": "https://localhost:7119/actuator",
+      "templated": false
+    },
+    "threaddump": {
+      "href": "https://localhost:7119/actuator/threaddump",
+      "templated": false
+    },
+    "heapdump": {
+      "href": "https://localhost:7119/actuator/heapdump",
+      "templated": false
+    },
+    "dbmigrations": {
+      "href": "https://localhost:7119/actuator/dbmigrations",
+      "templated": false
+    },
+    "env": {
+      "href": "https://localhost:7119/actuator/env",
+      "templated": false
+    },
+    "info": {
+      "href": "https://localhost:7119/actuator/info",
+      "templated": false
+    },
+    "health": {
+      "href": "https://localhost:7119/actuator/health",
+      "templated": false
+    },
+    "loggers": {
+      "href": "https://localhost:7119/actuator/loggers",
+      "templated": false
+    },
+    "httptrace": {
+      "href": "https://localhost:7119/actuator/httptrace",
+      "templated": false
+    },
+    "mappings": {
+      "href": "https://localhost:7119/actuator/mappings",
+      "templated": false
+    },
+    "metrics": {
+      "href": "https://localhost:7119/actuator/metrics",
+      "templated": false
+    },
+    "prometheus": {
+      "href": "https://localhost:7119/actuator/prometheus",
+      "templated": false
+    },
+    "refresh": {
+      "href": "https://localhost:7119/actuator/refresh",
+      "templated": false
+    }
+  }
+}
